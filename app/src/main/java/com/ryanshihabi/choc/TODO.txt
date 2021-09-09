@@ -1,0 +1,34 @@
+- Google Authentication
+    - core functions work ✓
+    - fix styling of the button to fit phone screen ✓
+- Google Firestore
+    - create a user collection database ✓
+    - when users sign in, check if their uuid matched any uuid in the db ✓
+    - no match, take user through the creation process ✓
+        - fill in the appropriate data for selections, getting a progress indicator may be tricky but necessary for tracking position in timeline ~
+    - uuid should be the main account identifier ✓
+- User Data
+    - Name ✓
+    - progress ✓
+    - theme ✓
+    - treatment ✓
+
+- Board
+ - Store progress
+ - Create a sign out button ✓
+    - top right preferably ✓
+    - Option 1: Change account attributes ✓
+    - Option 2: Sign out ✓
+        - Sign user out of the app ✓
+        - send back to sign in page ✓
+ - Horizontal scroll view ✓
+    - Holds all card information ✓
+    - Talk with Dr. Chavan to figure out what information to put in each card
+    - Optional
+        - card only unlocks until month of treatment
+ - Theme
+    - Background gets changed according to theme choice
+    - Cards change too
+ - Card content
+    - Animated video
+        - once animated video ends, increment progress value in collection document

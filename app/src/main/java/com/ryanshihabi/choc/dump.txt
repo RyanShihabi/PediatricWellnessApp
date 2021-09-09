@@ -1,0 +1,17 @@
+docRef.get().addOnCompleteListener(task1 -> {
+    DocumentSnapshot doc = task1.getResult();
+    if(!doc.exists()){
+        Map<String, Object> data = new HashMap<>();
+        data.put("Name", user.getDisplayName());
+        userRef.document(user.getUid()).set(data);
+
+        Intent intent = new Intent(SignInActivity.this, ThemeActivity.class);
+        intent.putExtra("UID", user.getUid());
+        Log.d("SignInActivity", String.format("Registering %s", user.getDisplayName()));
+        startActivity(intent);
+    }else{
+        Intent intent = new Intent(SignInActivity.this, BoardActivity.class);
+        Log.d("SignInActivity", "firebaseWithGoogle: " + user.getDisplayName() + " exists");
+        startActivity(intent);
+    }
+}

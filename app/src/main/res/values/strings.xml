@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CHOC</string>
+    <string name="name">__Name__</string>
+    <string name="SignIn">Sign In</string>
+    <string name="SignOut">Sign Out</string>
+    <string name="google_sign_up">Sign in with Google</string>
+    <string name="theme_selection">Select a Theme</string>
+    <string name="continue_text">Continue</string>
+    <string name="dinosaur">Dinosaur</string>
+    <string name="princess">Princess</string>
+    <string name="jungle">Jungle</string>
+    <string name="treatmentTitle">Select Type of Therapy</string>
+    <string name="treatment">Treatment</string>
+    <string name="board">Dashboard</string>
+    <string name="bmt">BMT</string>
+    <string name="example">Example</string>
+    <string name="loadingTitle">Loading Board</string>
+    <string name="settings_button">Settings button</string>
+    <string name="changeTheme">Change Theme</string>
+    <string name="adventureTitle">Your Adventure</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "368709716595",
+    "project_id": "choc-5e30e",
+    "storage_bucket": "choc-5e30e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368709716595:android:a08a6460529a46f272b806",
+        "android_client_info": {
+          "package_name": "com.ryanshihabi.choc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368709716595-2bvkdstr65ahhgaoeue5baojpe8n1mdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNksSDuQcemtTQEJp2qbbsvYfKGGVa_vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368709716595-2bvkdstr65ahhgaoeue5baojpe8n1mdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
